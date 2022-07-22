@@ -19,6 +19,7 @@ python3 interzpeed
 ```
 
 Install:
+
 Python:
 ```
 apt install python3
