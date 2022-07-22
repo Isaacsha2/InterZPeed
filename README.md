@@ -12,4 +12,8 @@ Required:
 Terminal
 Python3
 Tkinter module
-A Display
+
+Usage: on a terminal, type:
+```
+python3 interzpeed
+```
