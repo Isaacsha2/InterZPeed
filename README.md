@@ -9,6 +9,7 @@ Just click on "Download" to see download speed or on "Upload" to see upload spee
 
 
 Requirements:
+
 Terminal
 Python3
 Tkinter module
