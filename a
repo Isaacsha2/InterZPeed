@@ -1,0 +1,14 @@
+from tkinter import *
+from speedtest import Speedtest as st
+a=Tk()
+a.title('InterZPeed')
+b=StringVar()
+c=Entry(a,textvariable=b)
+def down():
+ b.set(int(st().download()/1000000)/8)
+def up():
+ b.set(int(st().upload()/1000000)/8)
+d=Button(a,text='Download',command=down)
+e=Button(a,text='Upload',command=up)
+c.grid();d.grid();e.grid()
+mainloop()
